@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+}
+
+.main-content .image {
+  background-image: linear-gradient(to right, rgba(3, 255, 255, 0.5) 100%, white 0%), url("../Images/2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.main-content-2 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 75%, white 30%), url("../Images/1.jpg");
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 770px) {
+  .main-content-2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 100%, white 0%), url("../Images/1.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.section-2 {
+  background-color: #ecf0f1;
+}
+
+.section-2 .card i {
+  font-size: 100px;
+  text-align: center;
+  padding: 20px 5px;
+  color: #81ecec;
+}
+
+.section-3 {
+  background-image: linear-gradient(to left, black 70%, transparent 30%), url("../Images/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+@media (max-width: 990px) {
+  .section-3 {
+    background-image: linear-gradient(to right, black 100%, transparent 0%), url("../Images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+  .section-3 h1 {
+    font-size: 20px;
+  }
+}
+
+.counters {
+  background: transparent;
+  padding: 20px 40px;
+  border-top: 3px lightskyblue solid;
+}
+
+.counters .counter {
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.pricing-panel {
+  background-color: #dfe6e9;
+}
+
+#seminars {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 100%, white 0%), url("../Images/8.jpeg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.contact-us-2 {
+  background-image: linear-gradient(to right, rgba(3, 255, 255, 0.5) 100%, white 0%), url("../Images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-us {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 100%, white 0%), url("../Images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* .services .card .card-img-top {
+  background: rgba(99, 226, 255, 0.5);
+} */
+
+@media (max-width: 700px) {
+  .counters .container > div:nth-of-type(1),
+  .counters .container > div:nth-of-type(2) {
+    border-bottom: 1px lightskyblue solid;
+    padding-bottom: 20px;
+  }
+}
